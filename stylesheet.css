@@ -1,0 +1,106 @@
+/* CSS HEX */
+/*--copper-rose: #98655Dff;
+--dark-jungle-green: #03170Eff;
+--pale-silver: #CAC3BAff;
+--light-slate-gray: #6C8B97ff;
+--dark-jungle-green-2: #18302Eff;
+--dark-sienna: #281004ff;
+*/
+body{
+    background-color: #16161d;
+
+}
+.list{
+    background-color:#CAC3BAff;
+    background-image:url("https://fixthephoto.com/images/content/paper-texture-11613661894.jpg");
+    height: 33vw;
+    width: 44vw;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 27%;
+    z-index: 1;
+    box-shadow: 0 -8px 8px  black inset ;
+}
+.line{
+    height: 29.239766081871345vw;
+    border-collapse:collapse;
+    width: 44vw;
+    position: absolute;
+
+
+}
+tr{
+    border-bottom: 2px solid #6C8B97ff;
+
+    margin-top: 4.385964912280702vw;
+    width: 14.619883040935672vw;
+
+}
+.line_2{
+    height: 31.7vw;
+    margin-left: 35%;
+    margin-top: 27.3%;
+    border-left: 2px solid #98655Dff;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+}
+
+.words{
+    position: fixed;
+    margin-left:8vw;
+    margin-top: 1px;
+    z-index: 2;
+    line-height: 5vw;
+}
+li{
+    font-family: 'Pangolin', cursive;
+    font-size: 4vw;
+
+
+}
+
+.scrabbles{
+    margin-left: 8%;
+    margin-top: 10%;
+    color:#03170Eff;
+    position: relative;
+}
+.notebook{
+    float: left;
+}
+.tile{
+    background-color: #f5cf90;
+    width: 8vw;
+    height: 8vw;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    border-top: 2px  white solid ;
+    border-bottom: 29px;
+    border-left: none;
+    border-right: none;
+
+    box-shadow: inset rgba(0,0,0, 0.2) -4px -4px 24px,
+    inset #CFB58B 0 -4px 0,
+    rgba(0,0,0, 0.6) 0 6px 6px -3px; ;
+    border-radius: 0.5vmin;
+    text-shadow: rgba(255,255,255, 0.8) 1px 1px 0;
+    color: #18302Eff;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/225363/Melamine-wood-001.png');
+
+}
+.enter{
+    margin-top: 5px;
+    width: 29.239766081871345vw;
+    margin-left: 30%;
+}
+button:active{
+    background: #CFB58B;
+
+    box-shadow: inset 0 0 5px #CFB58B;
+    outline: none;
+}
